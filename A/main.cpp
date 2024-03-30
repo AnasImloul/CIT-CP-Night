@@ -1,4 +1,7 @@
-#include<bits/stdc++.h>
+#include<unordered_map>
+#include<iostream>
+
+typedef long long ll;
 using namespace std;
 
 int main() {
