@@ -1,13 +1,12 @@
-import math
+from math import pi
 
 
-def calculate_missed_throws(N):
-    probability_missed = 1 - 2/math.pi
-    return round(N * probability_missed)
+def calculate_missed_throws(n):
+    probability_missed = 1 - 2 / pi
+    return round(n * probability_missed)
 
 
-T = int(input())
-for _ in range(T):
-    N = int(input())
-    result = calculate_missed_throws(N)
+for _ in range(int(input())):
+    n = int(input())
+    result = calculate_missed_throws(n)
     print(result)
